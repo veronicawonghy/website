@@ -15,6 +15,11 @@ body {
 .logo {
   height: 3rem;
 }
+
+.logo:hover {
+  opacity: 0.5;
+}
+
 /* menu link */
 nav a.nav-link {
   font-weight: 300;
@@ -30,7 +35,7 @@ nav ul li {
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   color: var(--primary-white) !important;
-  border-bottom: 0.1875rem solid var(--primary-dark);
+  border-bottom: 0.1875rem dashed var(--primary-dark);
 }
 
 .navbar-brand {
@@ -38,10 +43,6 @@ nav ul li {
   padding: 0.5rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-bottom: 0.1875rem solid var(--primary-yellow);
-}
-
-.navbar-nav > li > a:not(:focus):hover {
+.navbar-nav > li > a:hover {
   border-bottom: 0.1875rem dashed rgba(250,224,86, 0.8);
 }

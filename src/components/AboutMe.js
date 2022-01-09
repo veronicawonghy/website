@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../logo.png"
 
-const Navbar = () => {
+const AboutMe = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -11,6 +11,9 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About Me</a>
               </li>
@@ -27,4 +30,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default AboutMe;
